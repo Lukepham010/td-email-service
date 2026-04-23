@@ -1,0 +1,9 @@
+@Entity
+public class Email {
+
+    @Id
+    @GeneratedValue
+    private Long id;
+
+    private String address;
+}
