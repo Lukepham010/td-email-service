@@ -1,0 +1,9 @@
+@RestController
+@RequestMapping("/api/emails")
+public class EmailController {
+
+    @GetMapping("/health")
+    public String health() {
+        return "OK";
+    }
+}
